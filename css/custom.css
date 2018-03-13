@@ -1,0 +1,19 @@
+/***************************
+Add your custom styles below
+****************************/
+
+body {
+  background-color: white;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.active { color: #7575ff; font-weight: bold;}
+
+.logo { width: 200px; height: 47px;}
+
+.nav {padding-top: 20px;}
+.nav li {float: left; padding: 0 20px;}
+.nav-banner{ padding: 40px 0px;}
