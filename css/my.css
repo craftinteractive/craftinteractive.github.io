@@ -1,0 +1,96 @@
+
+.container {
+    max-width: 1000px;
+}
+
+h1, h2, h3 {
+  color: #7575ff;
+  font-weight: normal;
+}
+
+ul.mynav {
+  font-size: 1.1em;
+  margin-top: 8px;
+  float: right;
+}
+
+ul.features-list li {
+  padding-bottom: 20px;
+}
+div.industries-box{
+  background-color: tomato;
+  color: #fff;
+  padding: 25px;
+  margin: 10px 0;
+
+}
+
+ul.mynav li {
+  padding-right: 35px;
+  display: inline;
+  list-style: none;
+
+}
+
+ul.mynav li a {
+  color: grey;
+  padding-bottom: 8px;
+}
+
+ul.mynav li a:hover {
+  text-decoration: none;
+  color: #7575ff;
+}
+
+ul.mynav li a.active {
+  border-bottom: 1px solid #7575ff;
+
+}
+
+div.tomato-box {
+  background-color: tomato;
+  color: white;
+}
+
+div.tomato-box h6 {
+  color: white;
+  font-size: 1.2em;
+}
+
+.services h3 {
+  color: grey;
+  font-size: 1.5em;
+}
+
+h4 {
+  color: tomato;
+  font-size: 14px;
+}
+h6 {
+  color: grey;
+  font-weight: normal;
+}
+
+p.lead {
+  color: #7575ff;
+  font-size: 1.2em;
+}
+
+body.erpnext p.lead {
+  color: grey;
+}
+
+.feature-box {
+  background-color: #7575ff;
+  color: white;
+}
+
+.feature-box h2 {
+  color: white;
+  font-size: 20px;
+}
+
+.footer p {
+  color: #ccc;
+  font-size: .8em;
+}
