@@ -42,11 +42,6 @@ ul.mynav li a:hover {
   color: #7575ff;
 }
 
-ul.mynav li a.active {
-  border-bottom: 1px solid #7575ff;
-
-}
-
 div.tomato-box {
   background-color: tomato;
   color: white;
@@ -93,4 +88,34 @@ body.erpnext p.lead {
 .footer p {
   color: #ccc;
   font-size: .8em;
+}
+.map-container iframe{
+	width: 100%;
+}
+
+@media all and (max-width:560px){
+	ul.mynav{
+		float: none;
+	}
+	ul.mynav li{
+		width: 50%;
+		padding: 0;
+		float: left;
+	}
+}
+@media all and (max-width:360px){
+	ul.mynav {
+		padding-left: 0;
+		background: #E0E0E0;
+		float: left;
+		width: 100%;
+	}
+	ul.mynav li{
+		width: 100%;
+		text-align: center;
+		padding: 5px 0;
+	}
+	ul.mynav li.bg{
+		background: #BF8BFF;
+	}
 }
