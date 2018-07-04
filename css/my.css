@@ -70,6 +70,10 @@ p.lead {
   color: #7575ff;
   font-size: 1.2em;
 }
+ul li{
+  color: grey;
+  font-size: 1.2em;
+}
 
 body.erpnext p.lead {
   color: grey;
