@@ -1,0 +1,38 @@
+header a.logo img {
+    max-height: 35px;
+}
+
+.clients-list a img {
+  max-width: 50%;
+}
+
+
+.text-deep-pink {
+    color: #7575ff;
+}
+
+
+.bg-deep-pink {
+    background-color: #7575ff;
+}
+
+
+section {
+    padding: 65px 0;
+}
+
+
+.bg-deep-pink-opacity {
+    background-color: rgba(117, 117, 255, 0.85);
+}
+
+a:hover, a:active {
+    color: #7575ff;
+
+}
+
+
+
+.social-icon-style-8 a:hover {
+    color: #7575ff;
+}
